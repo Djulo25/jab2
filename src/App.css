@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.app {
+  text-align: center;
+  background-color: white;
+}
+
+.banner-container {
+  height: 250px; /* Ajustez la hauteur selon vos besoins */
+  background: url(/img/bannière.jpeg) center/cover no-repeat;
+  margin-bottom: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 15px solid;
+  border-image: linear-gradient(to right, #ffeb3b, #2196f3, #00bcd4, #ff9800) 30 round; /* Dégradé de couleurs */
+  box-sizing: border-box;
+}
+
+.titre {
+  height: 400px; /* Ajustez la hauteur selon vos besoins */
+  background: url(/img/titre.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+}
+
+.square1 {
+  width: 430px; /* Ajustez la taille des carrés selon vos besoins */
+  height: 300px;
+  overflow: hidden; /* Masque le contenu dépassant du cadre */
+  background-image: url(/img/Barbu.png);
+  background-repeat: no-repeat;
+  border: 15px solid;
+  border-image: linear-gradient(to right, #ffeb3b, #2196f3, #00bcd4, #ff9800) 30 round; /* Dégradé de couleurs */
+  box-sizing: border-box;
+  margin: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.square2 {
+  width: 430px; /* Ajustez la taille des carrés selon vos besoins */
+  height: 300px;
+  overflow: hidden; /* Masque le contenu dépassant du cadre */
+  background-image: url(/img/Barbu.png);
+  background-repeat: no-repeat;
+  border: 15px solid;
+  border-image: linear-gradient(to right, #ffeb3b, #2196f3, #00bcd4, #ff9800) 30 round; /* Dégradé de couleurs */
+  box-sizing: border-box;
+  margin: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.square1:hover {
+  transform: scale(1.1); /* Légère mise à l'échelle au survol */
+}
+
+.square2:hover {
+  transform: scale(1.1); /* Légère mise à l'échelle au survol */
+}
+
+.square-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Pour maintenir la proportion tout en remplissant le carré */
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
