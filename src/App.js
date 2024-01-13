@@ -1,29 +1,20 @@
-// App.js
-
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './Homepage';
+import Page1 from './Page1';
 import Footer from './footer';
+import './App.css';
 
-const HomePage = () => {
+const App = () => {
   return (
-    <div className="app">
-      <header>
-        <div className="banner-container">
-        </div>
-      </header>
-      <div className="titre">
+    <Router>
+      <div className="app">
+        <Routes exact path="/" component={HomePage} />
+        <Route path="/Page1" component={Page1} />
+        <Footer />
       </div>
-
-      <div className="square-container">
-          <div className="square1">
-          </div>
-          <div className="square2">
-          </div>
-        </div>
-      <Footer/>
-    </div>
+    </Router>
   );
 };
 
-
-export default HomePage;
+export default App;
