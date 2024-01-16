@@ -11,11 +11,8 @@ const HomePage = () => {
           <div className="banner-container">
           </div>
         </header>
-        
             <div className="titre">
             </div>
-        
-  
         <div className="square-container">
         <Link to="/Page1">
             <div className="square1">
