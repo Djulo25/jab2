@@ -39,7 +39,7 @@ body {
   width: 430px; /* Ajustez la taille des carrés selon vos besoins */
   height: 300px;
   overflow: hidden; /* Masque le contenu dépassant du cadre */
-  background-image: url(/img/Barbu.png);
+  background-image: url(/img/palmier.png);
   background-repeat: no-repeat;
   border: 15px solid;
   border-image: linear-gradient(to right, #ffeb3b, #2196f3, #00bcd4, #ff9800) 30 round; /* Dégradé de couleurs */

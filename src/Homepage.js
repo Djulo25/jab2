@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from'./footer';
+import Footer from './footer';
 import './App.css';
 
 
@@ -30,4 +30,3 @@ const HomePage = () => {
   
   
   export default HomePage;
-  
